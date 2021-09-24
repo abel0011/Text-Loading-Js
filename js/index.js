@@ -13,6 +13,7 @@ const HyperText = (el) => {
     const randomChar = () => {
       const chars =
         "!<>-_\\/[]{}—=+*^?#-----------------------------------------------------------------------------------------------";
+
       return chars[Math.floor(Math.random() * chars.length)];
     };
 
